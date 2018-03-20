@@ -1,0 +1,64 @@
+Naive
+
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+"tempor incididunt"
+
+"Sally sells seashells on the seashore"
+"seashore"
+
+//substringSearch(text, pattern)
+//  tLen = length(text)
+//  pLen = length(pattern)
+//  for (i = 0 to tLen - pLen)
+//    j = 0
+//    while(j < pLen and text[i + j] == pattern[j])
+//      j++
+//    if (j == plen) return i
+//  return -1
+
+
+"dododydodoodoodledo"
+"odoodledo"
+Vector(0,0,1,1,2,0,0,0,1)
+
+//substringSearch(text, pattern)
+//    prefixT = prefixTable(pattern)
+//    m = 0
+//    for (i = 0 until length(text))
+//      while(m > 0 and pattern[m] != text[i])
+//        m = prefixT(m - 1)
+//      if (pattern[m] == text[i]) m ++
+//      if (m == length(pattern)) return i - m + 1
+//    return -1
+
+
+//prefixTable(pattern)
+//  prefixT = $EMPTY_ARRAY[length(pattern)]
+//  prefixT[0] = 0
+//  f = 0
+//  for (i = 1 until length(pattern))
+//    while(f > 0 and pattern[f] != pattern[i])
+//      f = prefixT[f - 1]
+//    if (pattern[f] == pattern[i]) f ++
+//    prefixT[i] = f
+//  return prefixT
+
+prefixTable("odoodledo")
+val answer01 = List(0, 0, 1, 1, 2, 0, 0, 0, 1)
+
+prefixTable("acacabacacabacacac")
+val answer02 = List(0, 0, 1, 2, 3, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 4)
+
+
+val pattern = "True communication depends upon our being straightforward with one another. But the best way to communicate may be just to"
+
+
+
+
+
+
+
+
+
+
+

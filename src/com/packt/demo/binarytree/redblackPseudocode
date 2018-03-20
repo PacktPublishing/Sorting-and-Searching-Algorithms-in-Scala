@@ -1,0 +1,14 @@
+
+//redBlackFix(grandParent, parent, uncle)
+//child = findAnyRedChild(parent)
+//if(child != NULL AND isRed(parent))
+//  if (isRed(uncle) AND isLeft(parent, grandParent))
+//    left = toBlack(parent);
+//    right = toBlack(uncle)
+//    return copy(toRed(grandParent), left, right)
+//  if (isBlack(uncle) AND isLeft(parent, grandParent))
+//    if (isRight(child, parent))
+//      parent = leftRotate(parent);
+//    left = toBlack(parent);
+//    grandParent = copy(toRed(grandParent), left)
+//    return rightRotate(grandParent)

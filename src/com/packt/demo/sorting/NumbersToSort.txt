@@ -1,0 +1,27 @@
+//bubbleSort(array)
+//  n = length(array)
+//  for (k = 1 to n - 1)
+//    for (j = 0 until n - 1)
+//      if(array[j] > array[j + 1])
+//        swap(array, j, j + 1)
+
+
+val rArray = Array(3, 6, 1, 5, 2, 0, 8)
+
+val rArray2 = Array(4,6,22,56,11,55,223,1,7,33,9,10,67,88,2,5,6,9,213,6,3)
+
+//mergeSort(input)
+//  if(length(input) == 1) return input
+//  else
+//    sortedLeft = mergeSort(left(input))
+//    sortedRight = mergeSort(right(input))
+//  return merge(sortedLeft, sortedRight)
+
+//merge(left, right)
+//  merged = $EMPTY_LIST
+//  while(notEmpty(left) and notEmpty(right))
+//    if(isEmpty(left))  add(merged, pop(right))
+//    else if(isEmpty(right)) add(merged, pop(left))
+//    else if(top(left) < top(right))  add(merged, pop(left))
+//    else add(merged, pop(right))
+//  return reverse(merged)

@@ -1,4 +1,4 @@
-package com.packt.demo.hashtable.immutable
+package com.packt.demo.section3.hashtable.immutable
 
 trait HashTable[K, V] {
 

@@ -1,4 +1,4 @@
-package com.packt.demo.hashtable.immutable
+package com.packt.demo.section3.hashtable.immutable
 
 protected class HashTableImpl[K,V](hashVector: Vector[List[(K,V)]]) extends HashTable[K,V] {
 

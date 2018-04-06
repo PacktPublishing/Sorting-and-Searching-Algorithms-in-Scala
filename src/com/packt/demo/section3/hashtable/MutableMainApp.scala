@@ -1,4 +1,4 @@
-package com.packt.demo.hashtable
+package com.packt.demo.section3.hashtable
 
 object MutableMainApp {
 

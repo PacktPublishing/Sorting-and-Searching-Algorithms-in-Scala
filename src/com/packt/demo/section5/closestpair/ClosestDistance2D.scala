@@ -1,4 +1,4 @@
-package com.packt.demo.closestpair
+package com.packt.demo.section5.closestpair
 
 import scala.util.Random
 

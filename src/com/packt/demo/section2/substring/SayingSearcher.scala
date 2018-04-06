@@ -1,4 +1,4 @@
-package com.packt.demo.substring
+package com.packt.demo.section2.substring
 
 import scala.io.Source
 

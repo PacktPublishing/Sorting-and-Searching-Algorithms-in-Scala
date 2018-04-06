@@ -1,4 +1,4 @@
-package com.packt.demo.binarytree
+package com.packt.demo.section4.binarytree
 
 import scala.collection.immutable.Queue
 

@@ -1,4 +1,4 @@
-package com.packt.demo.binarytree
+package com.packt.demo.section4.binarytree
 
 trait BinarySearchTree[K, V] {
   def search(key: K): Option[V]
